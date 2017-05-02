@@ -1,0 +1,7 @@
+file = File.open(ARGV[0])
+file.each_line do |line|
+	       next if /^\s*$/ =~ line	#’¶õ’Çò’¹Ô
+	       next if /^#/ =~ line	#’¥·’¥ã’¡¼’¥×’¤Ç’»Ï’¤Þ’¤ë’¹Ô
+	       puts line
+end
+file.close

@@ -1,0 +1,5 @@
+puts "最初の引数 : #{ARDV[0]}"
+puts "２番目の引数 : #{ARDV[1]}"
+puts "３番目の引数 : #{ARDV[2]}"
+puts "４番目の引数 : #{ARDV[3]}"
+puts "５番目の引数 : #{ARDV[4]}"
